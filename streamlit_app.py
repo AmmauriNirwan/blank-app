@@ -13,6 +13,6 @@ st.header("Aplikasi Mengecek Nilai Genap/Ganjil")
 angka = st.number_input("Tulis sebuah Angka:", value=0, steps=1)
 
 if (angka % 2) == 0: 
-    st. writer(f"{angka} adalah Bilangan Genap") 
+    st.write(f"{angka} adalah Bilangan Genap") 
 else: 
-    st. writer(f"{angka} adalah Bilangan Ganjil") 
+    st.write(f"{angka} adalah Bilangan Ganjil") 
