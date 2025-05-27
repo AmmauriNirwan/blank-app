@@ -9,7 +9,7 @@ st.image("IMG-20250518-WA0011.jpg", width=200)
 
 
 st.title("Aplikasi Sederhana") 
-st.header("Aplikasi Mengecek Nilai Genap/Ganjil") 
+st.header("Genap/Ganjil Checker") 
 angka = st.number_input("Tulis sebuah Angka:", value=0, step=1)
 
 if (angka % 2) == 0: 
